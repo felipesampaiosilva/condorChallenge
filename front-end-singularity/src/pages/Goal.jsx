@@ -25,7 +25,7 @@ export const Goal = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 3 }}>
-            <Grid container justifyContent="center" mt={10} spacing={3}>
+            <Grid container justifyContent="center" mt={15} spacing={3}>
                 <Grid item xs={5}>
                     <img src={goalImage} />
                 </Grid>

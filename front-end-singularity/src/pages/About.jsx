@@ -24,14 +24,14 @@ export const About = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 3 }}>
-            <Grid container justifyContent="center" mt={10} spacing={3}>
+            <Grid container justifyContent="center" mt={15} spacing={3}>
                 <Grid item xs={5}>
                     <h1>Empowering the future through responsible AI</h1>
                     <p>{text}</p>
+                    <Skip page={"/problem"} />
                 </Grid>
                 <Grid item xs={4}>
                     <img src={aboutImage} />
-                    <Skip page={"/problem"} />
                 </Grid>
             </Grid>
         </motion.Container>

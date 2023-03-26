@@ -5,7 +5,7 @@ export const Skip = (props) => {
     const { page } = props;
 
     return (
-        <Grid container direction="row" justifyContent="flex-end">
+        <Grid container direction="row" justifyContent="flex-start">
             <a href={page}><TrendingFlatIcon sx={{ color: "black" }} fontSize="large" /></a>
         </Grid>
     );

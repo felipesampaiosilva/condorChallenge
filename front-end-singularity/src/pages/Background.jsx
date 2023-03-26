@@ -25,14 +25,14 @@ export const Background = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 3 }}>
-            <Grid container justifyContent="center" mt={10} spacing={3}>
+            <Grid container justifyContent="center" mt={15} spacing={3}>
                 <Grid item xs={5}>
                     <h1>Background</h1>
                     <p>{text}</p>
+                    <Skip page={"/goal"} />
                 </Grid>
                 <Grid item xs={4}>
                     <img src={backgroundImage} />
-                    <Skip page={"/goal"} />
                 </Grid>
             </Grid>
         </motion.Container>
