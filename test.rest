@@ -1,7 +1,0 @@
-
-####
-GET https://api.openai.com/v1/engines/davinci-codex/completions Content-Type: application/json
-
-{
-    "Authorization": "Bearer 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"
-}
