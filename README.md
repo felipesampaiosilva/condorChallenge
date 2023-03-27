@@ -6,7 +6,7 @@
 ## Project: Existencial Risk Observatory
 https://inteli-singularity.netlify.app/
 
-##Article
+## Article
 https://github.com/felipesampaiosilva/condorChallenge/blob/main/Hybrid%20Blockchain%20Networks%20for%20Transparency%20in%20Artificial%20Inteligence.pdf
 
 
