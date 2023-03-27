@@ -4,7 +4,7 @@
 
 
 ## Project: Existencial Risk Observatory
-//colocar o link aqui
+https://inteli-singularity.netlify.app/
 
 
 
